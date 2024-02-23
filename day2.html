@@ -1,0 +1,74 @@
+<!-- Inline, Internal, External CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling</title>
+    <!-- Internal CSS -->
+    <style>
+        /* tag name */
+        h2{
+            color: green;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: cyan;
+            text-align: center;
+        }
+        /* id name */
+        #myid{
+            background-color: blueviolet;
+            color: whitesmoke;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 1200px;
+        }
+        /*  class name */
+        .myclass{
+            background-color:blueviolet;
+        }
+        .b{
+            .b
+            .myclass
+            /* box model */
+            padding: 50px;
+            border-style: solid;
+            border-width: 3px;
+            border-color: black;
+            margin: 50px;
+            width: 200px;
+            height: 200px;
+            border-radius: 120px;
+            background-color: darksalmon;
+        } 
+        p{
+            font-size: 30px;
+            font-weight: bold;
+            padding: 50px;
+            border-style: solid;
+            border-width: 3px;
+            border-color: black;
+            margin: 50px;
+            width: 150px;
+            height: 150px;
+            border-radius: 120px;
+        }
+        body{
+            background-color: darkturquoise;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1 style="color:rgb(255, 0, 170);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;"> Introduction to  Inline CSS </h1>
+    <h2>Introduction to Internal CSS</h2>
+    <h2 class="b">Using the tag name</h2>
+    <h2 id="myid" >Using the ID name</h2>
+    <h2 class="myclass b">Using the Class name</h2>
+    <p>Thank You</p>
+</body>
+</html>

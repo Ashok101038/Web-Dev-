@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up </title>
+    <style>
+        .mybox{
+            width: 500px;
+            height: 450px;
+            background-color: cadetblue;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px 5px,0px 0px 20px 10px pink;
+            margin: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+            text-shadow: 2px 2px black;
+        }
+        label{
+            font-size: 30px;
+            /*color:white;
+           /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+           /* text-decoration: underline; */
+            padding: 20px;
+            margin: 20px;
+        }
+        input{
+            margin-left: 12px;
+            background-color: bisque;
+            box-shadow: 2px 2px 2px;
+        }
+        #form{
+            margin-left: 20px;
+            margin: 10px;
+            padding: 20px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div align="center" class="mybox">    
+        <label>SIGN UP</label>
+        <form align="left">
+       <div id="form"> 
+        First Name:<input type="text" placeholder="Enter the Name"><br>
+        Email ID:<input type="email" placeholder="Enter email ID"><br>
+        Phone Number:<input type="number" placeholder="Enter Number"><br>
+        Password: <input type="passwrord"><br>
+        DOB:<input type="date"><br><br>
+        Gender:<input type="radio">Male
+        <input type="radio">Female<br>
+        Courses: <select>
+            <option>ML</option>
+            <option selected>WD</option>
+            <option>Py</option>
+            </select> <br><br>
+        City: <input type="checkbox"> Banglore
+        <input type="checkbox"> Chennai
+        <input type="checkbox"> Mumbai
+        <input type="checkbox"> Delhi <br><br>
+        Upload: <input type="file"><br><br>
+        Time: <input type="time"><br><br>
+        <input type="submit"
+        style ="background-color: red">
+
+    </div>    
+    </form>
+    </div>
+</body>
+</html>
